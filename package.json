@@ -1,0 +1,16 @@
+{
+  "name": "caradura",
+  "version": "1.0.0",
+  "description": "Boldness in language generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "wordpos": "^0.1.15"
+  }
+}
