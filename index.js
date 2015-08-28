@@ -8,7 +8,7 @@ var app = express();
 //
 
 app.get('/caradura', function(req, res){
-  caradura(req.query.msg, function(msg){
+  caradura(req.query.text, function(msg){
     res.send(msg);
   });
 });
